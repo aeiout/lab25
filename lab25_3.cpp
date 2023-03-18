@@ -8,7 +8,7 @@ int count(int data[],int size){
 	for(int i=0;i<size;i++){
 		mySet.insert(data[i]);
 	}
-	return sizeof(mySet);
+	return mySet.size();
 }
 
 int main(){	
